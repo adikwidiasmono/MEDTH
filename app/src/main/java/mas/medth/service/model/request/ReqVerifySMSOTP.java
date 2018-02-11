@@ -8,7 +8,7 @@ import com.google.gson.annotations.SerializedName;
  */
 
 public class ReqVerifySMSOTP {
-    @SerializedName("optstr")
+    @SerializedName("otpstr")
     @Expose
     private String otpstr;
     @SerializedName("digit")

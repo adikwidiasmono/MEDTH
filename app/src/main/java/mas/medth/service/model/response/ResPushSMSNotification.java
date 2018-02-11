@@ -19,7 +19,7 @@ public class ResPushSMSNotification {
     private String message;
     @SerializedName("msgid")
     @Expose
-    private Integer msgid;
+    private Long msgid;
 
     public Integer getCode() {
         return code;
@@ -45,11 +45,11 @@ public class ResPushSMSNotification {
         this.message = message;
     }
 
-    public Integer getMsgid() {
+    public Long getMsgid() {
         return msgid;
     }
 
-    public void setMsgid(Integer msgid) {
+    public void setMsgid(Long msgid) {
         this.msgid = msgid;
     }
 }

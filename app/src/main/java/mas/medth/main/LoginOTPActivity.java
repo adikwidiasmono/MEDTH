@@ -80,6 +80,7 @@ public class LoginOTPActivity extends AppCompatActivity {
                                             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                                             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                                             startActivity(intent);
+                                            finish();
                                         } else {
                                             Log.e("Verify OTP", "onResponse " + res.getMessage());
                                             Toast.makeText(

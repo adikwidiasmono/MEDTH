@@ -116,14 +116,6 @@ public class LoginActivity extends AppCompatActivity {
         btLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                final Handler handler = new Handler();
-//                handler.postDelayed(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        startActivity(new Intent(getApplicationContext(), LoginOTPActivity.class));
-//                    }
-//                }, 3000);
-
                 pbLogin.setVisibility(View.VISIBLE);
                 Call tokenCall = XSightImpl
                         .getInstance()

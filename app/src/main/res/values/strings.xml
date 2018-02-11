@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MEDTH</string>
+    <string name="app_name_long">Trusted Digital Medical Record</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+
+    <string name="insurrance_balance">Insurance Balance</string>
+    <string name="balance_currency">$</string>
+    <string name="balance_amount">524.99</string>
+</resources>
